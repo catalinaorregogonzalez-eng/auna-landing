@@ -1,0 +1,7 @@
+# Aúna — Consultoría Organizacional
+# https://auna.catalinaorrego.com/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://auna.catalinaorrego.com/sitemap.xml
