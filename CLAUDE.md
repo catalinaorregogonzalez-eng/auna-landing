@@ -305,10 +305,7 @@ Then **verify it, every time**:
    "listo" or "ya está en tu página". Never say something is live because you
    assume the build worked.
 
-> ⚠️ **Public address of her site: `________________` — Maurits still needs to
-> fill this in.** Until it's here, publish the change as above, then tell her
-> honestly: "ya lo mandé a tu página; en un par de minutos debería estar. Todavía
-> no tengo la dirección guardada aquí para confirmártelo yo mismo."
+**Public address of her site: `https://auna.catalinaorrego.com/`**
 
 If the push fails for any reason, tell her the change is saved but not online
 yet, leave a note in `NOTAS-PARA-MAURITS.md`, and don't try to work around it.
