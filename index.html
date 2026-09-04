@@ -224,11 +224,14 @@
   .plans{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:20px;}
   .plan-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:30px 26px;display:flex;flex-direction:column;}
   .plan-card.featured{background:var(--navy);color:var(--cream);border:2px solid var(--purple);transform:translateY(-8px);}
-  .plan-card .icon{font-size:26px;margin-bottom:10px;}
+  .plan-card .icon{font-size:24px;margin-bottom:14px;width:50px;height:50px;border-radius:50%;display:flex;align-items:center;justify-content:center;}
+  .plan-card .icon.icon-green{background:rgba(155,170,141,.28);}
+  .plan-card .icon.icon-purple{background:rgba(135,132,181,.32);}
+  .plan-card .icon.icon-tan{background:rgba(220,205,182,.45);}
   .plan-card h3{font-size:23px;margin-bottom:4px;}
   .plan-card.featured h3{color:var(--cream);}
   .plan-card .tagline{font-size:13px;color:var(--text-soft);margin-bottom:18px;}
-  .plan-card.featured .tagline{color:#C9CFD2;}
+  .plan-card.featured .tagline{color:var(--purple);}
   .plan-card ul{list-style:none;margin-bottom:20px;flex:1;}
   .plan-card li{font-size:13.6px;margin-bottom:10px;padding-left:18px;position:relative;}
   .plan-card li:before{content:"·";position:absolute;left:0;color:var(--tan-deep);font-weight:700;}
@@ -599,7 +602,7 @@
 <!-- ================= NAV ================= -->
 <header id="nav">
   <div class="wrap">
-    <a href="#" class="logo"><img src="images/logo-auna.webp" width="230" height="152" alt="Aunar · Consultoría Organizacional"></a>
+    <a href="#" class="logo"><img src="images/logo-auna.webp" width="230" height="58" alt="Aunar · Consultoría Organizacional"></a>
     <div class="navlinks">
       <nav>
         <a href="#sobre">Cómo funciona</a>
@@ -631,37 +634,6 @@
       </div>
       <a href="#agenda" class="btn">Agenda tu sesión de diagnóstico</a>
       <p class="deriesgo-dark">Sesión de diagnóstico sin costo y sin compromiso.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ================= S4 THE SHIFT ================= -->
-<section id="shift">
-  <div class="wrap">
-    <div class="section-head center" style="margin-left:auto;margin-right:auto;">
-      <span class="eyebrow" style="text-align:center;">POR QUÉ EL MODELO VIEJO YA NO FUNCIONA</span>
-      <h2>El acompañamiento genérico ya no es suficiente.<br>Y el modelo viejo te sigue fallando.</h2>
-    </div>
-    <div class="shift-grid">
-      <div class="shift-card">
-        <div class="strike">La charla motivacional de un día</div>
-        <p>Sube el ánimo una tarde y desaparece la semana siguiente. No hay diagnóstico, no hay seguimiento, no hay cambio real.</p>
-        <div class="reframe">No fallaste tú; falló el método.</div>
-      </div>
-      <div class="shift-card">
-        <div class="strike">El taller genérico de liderazgo</div>
-        <p>El mismo contenido para cualquier empresa, sin entender tus retos específicos de comunicación, clima o conflicto.</p>
-        <div class="reframe">No fallaste tú; falló el método.</div>
-      </div>
-      <div class="shift-card">
-        <div class="strike">La app de bienestar corporativo</div>
-        <p>Meditaciones y contenido genérico que nadie en el equipo termina usando, porque el problema nunca fue falta de información.</p>
-        <div class="reframe">No fallaste tú; falló el método.</div>
-      </div>
-    </div>
-    <div class="pivot">
-      <h3>En Aunar diseñamos un sistema personalizado, no una charla genérica suelta.</h3>
-      <p>No llegamos a dictar un taller y despedirnos. Diagnosticamos lo que realmente está pasando, diseñamos un proceso a la medida, acompañamos su implementación y medimos si de verdad cambió algo. Trabajamos las raíces, no el síntoma.</p>
     </div>
   </div>
 </section>
@@ -745,8 +717,8 @@
 <!-- ================= S6 MÉTODO ================= -->
 <section id="metodo" class="on-dark">
   <div class="wrap">
-    <div class="section-head">
-      <span class="eyebrow on-dark">EL MÉTODO</span>
+    <div class="section-head center" style="margin-left:auto;margin-right:auto;">
+      <span class="eyebrow on-dark" style="text-align:center;">EL MÉTODO</span>
       <h2>Método Aunar: un sistema, no una charla suelta.</h2>
     </div>
     <div class="method-flow">
@@ -825,7 +797,7 @@
     </div>
     <div class="plans">
       <div class="plan-card">
-        <div class="icon">🌱</div>
+        <div class="icon icon-green">🌱</div>
         <h3>Plan Semilla</h3>
         <div class="tagline">Formación y sensibilización · 6 meses</div>
         <ul>
@@ -835,7 +807,7 @@
         <a href="#agenda" class="btn outline">Agenda tu diagnóstico</a>
       </div>
       <div class="plan-card featured">
-        <div class="icon">🌿</div>
+        <div class="icon icon-purple">🌿</div>
         <h3>Plan Crecimiento</h3>
         <div class="tagline">Diagnóstico, formación y acompañamiento · 6 meses</div>
         <ul>
@@ -847,7 +819,7 @@
         <a href="#agenda" class="btn light">Agenda tu diagnóstico</a>
       </div>
       <div class="plan-card">
-        <div class="icon">🌳</div>
+        <div class="icon icon-tan">🌳</div>
         <h3>Plan Transformación</h3>
         <div class="tagline">Acompañamiento estratégico continuo · 12 meses</div>
         <ul>
