@@ -3,12 +3,12 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://auna.catalinaorrego.com/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-09-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://auna.catalinaorrego.com/images/og-auna.jpg</image:loc>
-      <image:title>Aúna — Consultoría Organizacional</image:title>
+      <image:title>Aunar — Consultoría Organizacional</image:title>
     </image:image>
   </url>
 </urlset>
