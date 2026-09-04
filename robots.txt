@@ -1,4 +1,4 @@
-# Aúna — Consultoría Organizacional
+# Aunar — Consultoría Organizacional
 # https://auna.catalinaorrego.com/
 
 User-agent: *
