@@ -23,6 +23,28 @@ Dice `anuaconsultoriaa@gmail.com` — "anua" en vez de "auna", y una "a" de más
 final. Es la única forma de contacto además del calendario. Confirmar con
 Catalina antes de cambiarlo.
 
+## 2026-09-10 — Todo el rediseño de marca (AUNAR) está listo, esperando merge
+
+Esta sesión se abrió en la rama `claude/aunar-website-redesign-xko7jt`, no
+directo sobre `main`, y ya tiene un PR abierto:
+https://github.com/catalinaorregogonzalez-eng/auna-landing/pull/2
+
+Ahí quedó todo el trabajo del cambio de marca de Aúna a AUNAR que Catalina fue
+aprobando por partes a lo largo de la sesión: nombre nuevo en todo el sitio,
+paleta de colores y tipografía del manual de marca, el logo real (extraído del
+ZIP de identidad que ella mandó, ya no la reconstrucción a mano de un
+screenshot), tono institucional en vez de primera persona, los planes con
+horas y duración detalladas, ajustes de menú, y por último el video que ella
+grabó conectado en la sección "Conócenos en video" (con una portada sacada del
+propio video).
+
+Catalina ya dio el visto bueno a todo esto — el último "sí, así" fue sobre el
+tamaño del cuadro del video. No hice merge del PR yo mismo porque esta sesión
+no me dio esa instrucción y fusionar a `main` es lo que dispara el sitio en
+vivo; eso quedó para que alguien lo revise en GitHub y lo fusione cuando le
+parezca bien. Mientras el PR no se fusione, nada de esto está en
+`auna.catalinaorrego.com`.
+
 ## 2026-08-16 — Comentario desactualizado en el código
 
 El comentario del inicio de `index.html` dice que el bloque `PIXEL_META` está al
