@@ -45,6 +45,15 @@ vivo; eso quedó para que alguien lo revise en GitHub y lo fusione cuando le
 parezca bien. Mientras el PR no se fusione, nada de esto está en
 `auna.catalinaorrego.com`.
 
+**Actualización, mismo día:** Catalina cambió el video por uno de mejor
+resolución (mismo patrón, solo cambió el ID de YouTube; la portada se dejó
+igual a propósito, ella lo pidió así) y aprobó una línea chiquita debajo de
+los logos de clientes: "Todos los workshops se dieron a través de
+Proestrategia." — es una aclaración sobre cómo llegaron esas empresas a
+trabajar con ella, ya confirmada por Catalina, sin nada más que revisar ahí.
+Todo esto también quedó en el PR #2. Catalina pidió explícitamente que te
+avisara — sigue pendiente solo el merge.
+
 ## 2026-08-16 — Comentario desactualizado en el código
 
 El comentario del inicio de `index.html` dice que el bloque `PIXEL_META` está al
