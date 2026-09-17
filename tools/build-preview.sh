@@ -38,7 +38,7 @@ print(re.sub(r'src="((?!data:|https?:)[^"]+)"', swap, text), end='')
 PYI
 }
 
-SRC_INLINED=$(mktemp -t preview-src)
+SRC_INLINED=$(mktemp "${TMPDIR:-/tmp}/preview-src.XXXXXX")
 trap 'rm -f "$SRC_INLINED"' EXIT
 inline_local_images "$SRC" > "$SRC_INLINED"
 SRC="$SRC_INLINED"
