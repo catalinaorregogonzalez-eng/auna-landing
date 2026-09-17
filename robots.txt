@@ -1,7 +1,7 @@
 # Aunar — Consultoría Organizacional
-# https://auna.catalinaorrego.com/
+# https://aunar.catalinaorrego.com/
 
 User-agent: *
 Allow: /
 
-Sitemap: https://auna.catalinaorrego.com/sitemap.xml
+Sitemap: https://aunar.catalinaorrego.com/sitemap.xml
