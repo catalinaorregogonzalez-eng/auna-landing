@@ -75,7 +75,7 @@ print('\n'.join(out))
 PYX
 }
 
-CUR_INLINED=$(mktemp -t compare-cur); NEW_INLINED=$(mktemp -t compare-new)
+CUR_INLINED=$(mktemp "${TMPDIR:-/tmp}/compare-cur.XXXXXX"); NEW_INLINED=$(mktemp "${TMPDIR:-/tmp}/compare-new.XXXXXX")
 trap 'rm -f "$CUR_INLINED" "$NEW_INLINED"' EXIT
 inline_local_images "$CUR" > "$CUR_INLINED"; CUR="$CUR_INLINED"
 inline_local_images "$NEW" > "$NEW_INLINED"; NEW="$NEW_INLINED"

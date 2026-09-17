@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://auna.catalinaorrego.com/</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://aunar.catalinaorrego.com/</loc>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://auna.catalinaorrego.com/images/og-auna.jpg</image:loc>
+      <image:loc>https://aunar.catalinaorrego.com/images/og-auna.jpg</image:loc>
       <image:title>Aunar — Consultoría Organizacional</image:title>
     </image:image>
   </url>
